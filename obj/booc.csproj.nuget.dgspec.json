@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER11\\Documents\\booc\\booc\\booc.csproj": {}
+    "C:\\Users\\USER11\\Documents\\booc\\routing-act\\booc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER11\\Documents\\booc\\booc\\booc.csproj": {
+    "C:\\Users\\USER11\\Documents\\booc\\routing-act\\booc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER11\\Documents\\booc\\booc\\booc.csproj",
+        "projectUniqueName": "C:\\Users\\USER11\\Documents\\booc\\routing-act\\booc.csproj",
         "projectName": "booc",
-        "projectPath": "C:\\Users\\USER11\\Documents\\booc\\booc\\booc.csproj",
+        "projectPath": "C:\\Users\\USER11\\Documents\\booc\\routing-act\\booc.csproj",
         "packagesPath": "C:\\Users\\USER11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER11\\Documents\\booc\\booc\\obj\\",
+        "outputPath": "C:\\Users\\USER11\\Documents\\booc\\routing-act\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER11\\AppData\\Roaming\\NuGet\\NuGet.Config",

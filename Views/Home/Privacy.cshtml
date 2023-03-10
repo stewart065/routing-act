@@ -3,4 +3,18 @@
 }
 <h1>@ViewData["Title"]</h1>
 
+
+
 <p>Use this page to detail your site's privacy policy.</p>
+
+<p>AGE: @ViewData["age"]</p>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+@if((int)ViewData["age"]<= 17){
+    <p>aysa uys</p>
+}else if((int)ViewData["age"] >=18 && (int)ViewData["age"]<=30){
+    <p>Pede na uys</p>
+}else if((int)ViewData["age"]>= 60){
+    <p>Pede na uys</p>
+}

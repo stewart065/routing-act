@@ -7,7 +7,9 @@ namespace booc.Controllers;
 public class boocController : Controller
 {
     public IActionResult Index(){
+        
         return View();
+        
 
     }
     public IActionResult educ(){
@@ -17,5 +19,10 @@ public class boocController : Controller
     public IActionResult job(){
         return View();
 
+    }
+     public IActionResult Privacy()
+    {
+       
+        return View();
     }
 }

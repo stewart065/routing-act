@@ -20,6 +20,7 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
+         ViewData["age"] =59;
         return View();
     }
 
