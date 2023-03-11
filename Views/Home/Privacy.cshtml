@@ -1,0 +1,30 @@
+﻿@model List<routing_act_main.Models.Person>
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@foreach(var Paws in Model){
+    <li>
+        <h1>@Paws.fullname = @Paws.age</h1>
+    </li>
+}
+
+<p>Use this page to detail your site's privacy policy.</p>
+<p>AGE: @ViewData["age"]</p>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+@if((int)ViewData["age"]<= 17){
+    <p>aysa uys</p>
+}
+@if((int)ViewData["age"]>=18 && (int)ViewData["age"]<=30){
+    <p>pede na uys </p>
+}
+@if((int)ViewData["age"]>=31 && (int)ViewData["age"]<=60){
+    <p>Gors na </p>
+}
+@if((int)ViewData["age"]>=61 && (int)ViewData["age"]<=100){
+    <p>Pede naka Matay</p>
+}
